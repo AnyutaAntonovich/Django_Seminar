@@ -32,3 +32,438 @@ INFO 2023-12-23 10:38:29,949 views 1528 9192 Page accessed
 INFO 2023-12-23 10:38:29,957 basehttp 1528 9192 "GET /main/game1/ HTTP/1.1" 200 5
 INFO 2023-12-23 10:48:07,961 autoreload 1528 1680 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\models.py changed, reloading.
 INFO 2023-12-23 10:48:08,403 autoreload 17916 6152 Watching for file changes with StatReloader
+INFO 2023-12-23 15:21:21,820 autoreload 1120 16248 Watching for file changes with StatReloader
+WARNING 2023-12-23 15:21:23,833 log 1120 6392 Not Found: /
+WARNING 2023-12-23 15:21:23,833 basehttp 1120 6392 "GET / HTTP/1.1" 404 2167
+WARNING 2023-12-23 15:21:23,983 log 1120 14248 Not Found: /
+WARNING 2023-12-23 15:21:23,984 basehttp 1120 14248 "GET / HTTP/1.1" 404 2167
+INFO 2023-12-23 15:21:29,287 views 1120 6392 Page accessed
+INFO 2023-12-23 15:21:29,291 basehttp 1120 6392 "GET /main/ HTTP/1.1" 200 394
+INFO 2023-12-23 15:21:29,395 views 1120 14248 Page accessed
+INFO 2023-12-23 15:21:29,396 basehttp 1120 14248 "GET /main/ HTTP/1.1" 200 394
+INFO 2023-12-23 15:28:22,398 autoreload 1120 16248 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\views.py changed, reloading.
+INFO 2023-12-23 15:28:22,795 autoreload 16184 16112 Watching for file changes with StatReloader
+INFO 2023-12-23 15:28:30,479 views 16184 11024 Page accessed
+INFO 2023-12-23 15:28:30,483 basehttp 16184 11024 "GET /main/ HTTP/1.1" 200 405
+INFO 2023-12-23 15:28:30,578 views 16184 2460 Page accessed
+INFO 2023-12-23 15:28:30,578 basehttp 16184 2460 "GET /main/ HTTP/1.1" 200 405
+INFO 2023-12-23 15:33:05,450 autoreload 16184 16112 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\urls.py changed, reloading.
+INFO 2023-12-23 15:33:05,835 autoreload 3488 18660 Watching for file changes with StatReloader
+INFO 2023-12-23 15:33:55,916 views 3488 13800 Page accessed
+INFO 2023-12-23 15:33:55,920 basehttp 3488 13800 "GET /main/ HTTP/1.1" 200 405
+INFO 2023-12-23 15:33:55,947 views 3488 12660 Page accessed
+INFO 2023-12-23 15:33:55,948 basehttp 3488 12660 "GET /main/ HTTP/1.1" 200 405
+INFO 2023-12-23 15:34:02,479 basehttp 3488 13800 "GET /main/about HTTP/1.1" 301 0
+INFO 2023-12-23 15:34:02,485 views 3488 8048 Page accessed
+INFO 2023-12-23 15:34:02,486 basehttp 3488 8048 "GET /main/about/ HTTP/1.1" 200 795
+INFO 2023-12-23 15:34:02,507 views 3488 12660 Page accessed
+INFO 2023-12-23 15:34:02,509 basehttp 3488 12660 "GET /main/about/ HTTP/1.1" 200 795
+INFO 2023-12-23 15:49:14,864 autoreload 8876 15928 Watching for file changes with StatReloader
+INFO 2023-12-23 15:49:21,200 views 8876 15084 Page accessed
+INFO 2023-12-23 15:49:21,204 basehttp 8876 15084 "GET /main/about/ HTTP/1.1" 200 795
+INFO 2023-12-23 15:49:21,341 views 8876 14192 Page accessed
+INFO 2023-12-23 15:49:21,341 basehttp 8876 14192 "GET /main/about/ HTTP/1.1" 200 795
+INFO 2023-12-23 15:49:28,179 views 8876 15084 Page accessed
+ERROR 2023-12-23 15:49:28,289 log 8876 15084 Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_myapp
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\views.py", line 18, in index
+    return render(request, 'myapp/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_myapp
+ERROR 2023-12-23 15:49:28,294 basehttp 8876 15084 "GET /main/ HTTP/1.1" 500 132031
+INFO 2023-12-23 15:49:28,325 views 8876 14192 Page accessed
+ERROR 2023-12-23 15:49:28,361 log 8876 14192 Internal Server Error: /main/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: myapp/base_myapp
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\views.py", line 18, in index
+    return render(request, 'myapp/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: myapp/base_myapp
+ERROR 2023-12-23 15:49:28,367 basehttp 8876 14192 "GET /main/ HTTP/1.1" 500 131087
+INFO 2023-12-23 15:51:31,132 autoreload 18980 12056 Watching for file changes with StatReloader
+INFO 2023-12-23 15:51:36,081 views 18980 3428 Page accessed
+INFO 2023-12-23 15:51:36,093 basehttp 18980 3428 "GET /main/ HTTP/1.1" 200 425
+INFO 2023-12-23 15:51:36,120 views 18980 14796 Page accessed
+INFO 2023-12-23 15:51:36,121 basehttp 18980 14796 "GET /main/ HTTP/1.1" 200 425
+INFO 2023-12-23 15:53:16,105 views 18980 3428 Page accessed
+INFO 2023-12-23 15:53:16,106 basehttp 18980 3428 "GET /main/about/ HTTP/1.1" 200 825
+INFO 2023-12-23 15:53:16,125 views 18980 14796 Page accessed
+INFO 2023-12-23 15:53:16,126 basehttp 18980 14796 "GET /main/about/ HTTP/1.1" 200 825
+INFO 2023-12-23 16:01:01,909 autoreload 18980 12056 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\views.py changed, reloading.
+INFO 2023-12-23 16:01:02,634 autoreload 10244 1672 Watching for file changes with StatReloader
+INFO 2023-12-23 16:08:40,389 autoreload 10244 1672 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myapp\views.py changed, reloading.
+INFO 2023-12-23 16:08:40,779 autoreload 13560 2388 Watching for file changes with StatReloader
+INFO 2023-12-23 16:08:57,231 views 13560 9100 Page accessed
+INFO 2023-12-23 16:08:57,240 basehttp 13560 9100 "GET /main/game1/ HTTP/1.1" 200 224
+INFO 2023-12-23 16:08:57,374 views 13560 2084 Page accessed
+INFO 2023-12-23 16:08:57,384 basehttp 13560 2084 "GET /main/game1/ HTTP/1.1" 200 224
+INFO 2023-12-23 16:09:04,966 views 13560 9100 Page accessed
+INFO 2023-12-23 16:09:04,968 basehttp 13560 9100 "GET /main/game2/ HTTP/1.1" 200 220
+INFO 2023-12-23 16:09:04,992 views 13560 2084 Page accessed
+INFO 2023-12-23 16:09:04,993 basehttp 13560 2084 "GET /main/game2/ HTTP/1.1" 200 220
+INFO 2023-12-23 16:09:10,393 views 13560 9100 Page accessed
+INFO 2023-12-23 16:09:10,394 basehttp 13560 9100 "GET /main/game3/ HTTP/1.1" 200 222
+INFO 2023-12-23 16:09:10,456 views 13560 2084 Page accessed
+INFO 2023-12-23 16:09:10,459 basehttp 13560 2084 "GET /main/game3/ HTTP/1.1" 200 222
+INFO 2023-12-23 16:27:26,772 autoreload 16120 17608 Watching for file changes with StatReloader
+WARNING 2023-12-23 16:27:46,066 log 16120 1456 Not Found: /main/author
+WARNING 2023-12-23 16:27:46,067 basehttp 16120 1456 "GET /main/author HTTP/1.1" 404 3164
+WARNING 2023-12-23 16:27:46,187 log 16120 6684 Not Found: /main/author
+WARNING 2023-12-23 16:27:46,187 basehttp 16120 6684 "GET /main/author HTTP/1.1" 404 3164
+WARNING 2023-12-23 16:27:55,205 log 16120 1456 Not Found: /author
+WARNING 2023-12-23 16:27:55,205 basehttp 16120 1456 "GET /author HTTP/1.1" 404 2203
+WARNING 2023-12-23 16:27:55,307 log 16120 6684 Not Found: /author
+WARNING 2023-12-23 16:27:55,309 basehttp 16120 6684 "GET /author HTTP/1.1" 404 2203
+INFO 2023-12-23 16:29:02,246 autoreload 16120 17608 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myproject\urls.py changed, reloading.
+INFO 2023-12-23 16:29:02,633 autoreload 15980 15584 Watching for file changes with StatReloader
+INFO 2023-12-23 16:32:10,878 autoreload 15980 15584 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:32:11,271 autoreload 15576 14576 Watching for file changes with StatReloader
+INFO 2023-12-23 16:32:28,275 views 15576 7348 Page accessed
+INFO 2023-12-23 16:32:28,280 basehttp 15576 7348 "GET /main/ HTTP/1.1" 200 425
+INFO 2023-12-23 16:32:28,316 views 15576 13720 Page accessed
+INFO 2023-12-23 16:32:28,318 basehttp 15576 13720 "GET /main/ HTTP/1.1" 200 425
+INFO 2023-12-23 16:32:40,295 basehttp 15576 7348 "GET /main/author HTTP/1.1" 301 0
+INFO 2023-12-23 16:32:40,302 basehttp 15576 4924 "GET /main/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:32:40,328 basehttp 15576 13720 "GET /main/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:34:46,569 autoreload 15576 14576 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:34:47,210 autoreload 16212 15340 Watching for file changes with StatReloader
+INFO 2023-12-23 16:36:13,242 autoreload 16212 15340 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:36:13,624 autoreload 9676 16708 Watching for file changes with StatReloader
+ERROR 2023-12-23 16:36:31,089 log 9676 11940 Internal Server Error: /main/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:36:31,090 basehttp 9676 11940 "GET /main/author/ HTTP/1.1" 500 65303
+ERROR 2023-12-23 16:36:31,164 log 9676 8048 Internal Server Error: /main/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:36:31,166 basehttp 9676 8048 "GET /main/author/ HTTP/1.1" 500 64222
+INFO 2023-12-23 16:37:13,727 autoreload 7316 17336 Watching for file changes with StatReloader
+ERROR 2023-12-23 16:37:27,397 log 7316 18568 Internal Server Error: /main/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:37:27,399 basehttp 7316 18568 "GET /main/author/ HTTP/1.1" 500 65303
+ERROR 2023-12-23 16:37:27,477 log 7316 16080 Internal Server Error: /main/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:37:27,479 basehttp 7316 16080 "GET /main/author/ HTTP/1.1" 500 64222
+INFO 2023-12-23 16:37:59,248 views 7316 18568 Page accessed
+INFO 2023-12-23 16:37:59,254 basehttp 7316 18568 "GET /main/game1/ HTTP/1.1" 200 224
+INFO 2023-12-23 16:37:59,274 views 7316 16080 Page accessed
+INFO 2023-12-23 16:37:59,284 basehttp 7316 16080 "GET /main/game1/ HTTP/1.1" 200 224
+ERROR 2023-12-23 16:38:05,644 log 7316 16080 Internal Server Error: /main/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:38:05,645 basehttp 7316 16080 "GET /main/author/ HTTP/1.1" 500 64222
+INFO 2023-12-23 16:39:19,710 autoreload 7316 17336 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\myproject\urls.py changed, reloading.
+INFO 2023-12-23 16:39:20,085 autoreload 16728 7216 Watching for file changes with StatReloader
+ERROR 2023-12-23 16:39:32,441 log 16728 16100 Internal Server Error: /blog/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:39:32,443 basehttp 16728 16100 "GET /blog/author/ HTTP/1.1" 500 65166
+ERROR 2023-12-23 16:39:32,510 log 16728 11960 Internal Server Error: /blog/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view modelapp.views.author didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-12-23 16:39:32,513 basehttp 16728 11960 "GET /blog/author/ HTTP/1.1" 500 64222
+INFO 2023-12-23 16:40:05,010 autoreload 16728 7216 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:40:05,383 autoreload 10272 15824 Watching for file changes with StatReloader
+INFO 2023-12-23 16:40:10,618 basehttp 10272 1720 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:40:10,641 basehttp 10272 968 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:42:07,188 autoreload 10272 15824 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:42:07,602 autoreload 10608 10764 Watching for file changes with StatReloader
+INFO 2023-12-23 16:42:58,435 autoreload 10608 10764 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:42:58,888 autoreload 9988 7740 Watching for file changes with StatReloader
+INFO 2023-12-23 16:43:02,178 basehttp 9988 7000 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:02,214 basehttp 9988 10056 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:03,587 basehttp 9988 7000 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:03,610 basehttp 9988 10056 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:04,367 basehttp 9988 7000 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:04,395 basehttp 9988 10056 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:04,986 basehttp 9988 7000 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:43:05,011 basehttp 9988 10056 "GET /blog/author/ HTTP/1.1" 200 157
+INFO 2023-12-23 16:44:20,222 autoreload 9988 7740 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:44:20,603 autoreload 14240 5056 Watching for file changes with StatReloader
+INFO 2023-12-23 16:45:12,074 basehttp 14240 10636 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:45:12,105 basehttp 14240 13332 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:45:42,741 autoreload 7352 6836 Watching for file changes with StatReloader
+INFO 2023-12-23 16:45:46,937 basehttp 7352 6956 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:45:46,960 basehttp 7352 18352 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:21,898 autoreload 17092 11744 Watching for file changes with StatReloader
+INFO 2023-12-23 16:46:25,520 basehttp 17092 2660 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:25,541 basehttp 17092 19296 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:27,242 basehttp 17092 2660 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:27,263 basehttp 17092 19296 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:27,824 basehttp 17092 2660 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:27,842 basehttp 17092 19296 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:28,101 basehttp 17092 2660 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:28,123 basehttp 17092 19296 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:51,528 autoreload 17092 11744 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:46:51,906 autoreload 19232 11664 Watching for file changes with StatReloader
+INFO 2023-12-23 16:46:56,226 basehttp 19232 17916 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:56,247 basehttp 19232 1760 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:58,888 basehttp 19232 17916 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:46:58,913 basehttp 19232 1760 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:47:16,514 autoreload 19232 11664 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:47:16,896 autoreload 6640 14212 Watching for file changes with StatReloader
+INFO 2023-12-23 16:47:20,449 basehttp 6640 14884 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:47:20,478 basehttp 6640 15676 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:47:20,962 basehttp 6640 14884 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:47:20,985 basehttp 6640 15676 "GET /blog/author/ HTTP/1.1" 200 167
+INFO 2023-12-23 16:48:07,331 autoreload 3460 10080 Watching for file changes with StatReloader
+ERROR 2023-12-23 16:48:11,230 log 3460 10188 Internal Server Error: /blog/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py", line 15, in author
+    return render(request, 'modelapp/author.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'author[0]'
+ERROR 2023-12-23 16:48:11,234 basehttp 3460 10188 "GET /blog/author/ HTTP/1.1" 500 136321
+ERROR 2023-12-23 16:48:11,310 log 3460 5184 Internal Server Error: /blog/author/
+Traceback (most recent call last):
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py", line 15, in author
+    return render(request, 'modelapp/author.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'author[0]'
+ERROR 2023-12-23 16:48:11,317 basehttp 3460 5184 "GET /blog/author/ HTTP/1.1" 500 135240
+INFO 2023-12-23 16:49:05,337 autoreload 3460 10080 D:\Учёба\GeekBrains\I четверть\7. Django\Семинары\Django_Seminar\modelapp\views.py changed, reloading.
+INFO 2023-12-23 16:49:05,715 autoreload 17912 15896 Watching for file changes with StatReloader
+INFO 2023-12-23 16:49:10,545 basehttp 17912 8236 "GET /blog/author/ HTTP/1.1" 200 192
+INFO 2023-12-23 16:49:10,576 basehttp 17912 18752 "GET /blog/author/ HTTP/1.1" 200 192

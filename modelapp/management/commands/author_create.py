@@ -14,6 +14,6 @@ class Command(BaseCommand):
                          surname=f'Surname{i}',
                          email=f'mail{i}@mail.ru',
                          bio=f'Biography{i}',
-                         age=f'Birthday{i}')
+                         age=f'{i}')
             author.save()
         self.stdout.write('Ok')
