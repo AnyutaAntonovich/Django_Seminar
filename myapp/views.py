@@ -5,6 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Coins
 from django.shortcuts import render
+from .forms import GamesForms
 
 
 logger = logging.getLogger(__name__)
@@ -65,3 +66,22 @@ def random_num(request):
     result = num
     context = {'result': result, 'choice': num}
     return render(request, 'myapp/games.html', context=context)
+
+
+def game_choice(request):
+    logger.info('Page accessed')
+    if request.method == 'POST':
+        form = GamesForms(request.POST)
+        if form.is_valid():
+            games = form.cleaned_data['games_extions']
+            count = form.cleaned_data['count_games']
+        print(games, count)
+        if games == 'coins':
+            return heads_tails(request)
+        elif games == 'edges':
+            return edges(request)
+        elif games == 'number':
+            return random_num(request)
+    else:
+        form = GamesForms()
+    return render(request, 'myapp/game_choice.html', {'form': form})

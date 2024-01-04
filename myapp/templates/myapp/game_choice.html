@@ -1,0 +1,16 @@
+{% extends "myapp/base_myapp.html" %}
+
+    {% block title %} {{ name }} {% endblock %}
+
+        {% block content %}
+        <h1>Образовательный портал {{ name }}</h1>
+        <p style="color: Aqua">khbkgffcvjkhbknj</p>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">
+                Choice
+            </button>
+
+        </form>
+        {% endblock %}
