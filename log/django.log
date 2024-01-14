@@ -960,3 +960,43 @@ INFO 2024-01-13 17:03:45,299 basehttp 17440 18800 "POST /admin/login/?next=/admi
 INFO 2024-01-13 17:03:45,322 basehttp 17440 14516 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
 INFO 2024-01-13 17:03:57,599 basehttp 17440 18800 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4629
 INFO 2024-01-13 17:03:57,623 basehttp 17440 14516 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-01-14 15:16:50,734 autoreload 672 12164 Watching for file changes with StatReloader
+WARNING 2024-01-14 15:16:54,453 log 672 15060 Not Found: /
+WARNING 2024-01-14 15:16:54,453 basehttp 672 15060 "GET / HTTP/1.1" 404 12136
+INFO 2024-01-14 15:16:54,479 basehttp 672 15060 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2024-01-14 15:16:54,479 basehttp 672 1548 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2024-01-14 15:16:54,521 basehttp 672 1548 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-01-14 15:16:54,563 basehttp 672 1548 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+WARNING 2024-01-14 15:16:54,632 log 672 14332 Not Found: /
+WARNING 2024-01-14 15:16:54,636 basehttp 672 14332 "GET / HTTP/1.1" 404 12135
+WARNING 2024-01-14 15:16:54,651 log 672 1548 Not Found: /favicon.ico
+WARNING 2024-01-14 15:16:54,652 basehttp 672 1548 "GET /favicon.ico HTTP/1.1" 404 12197
+INFO 2024-01-14 15:17:04,671 basehttp 672 1548 "GET /main HTTP/1.1" 301 0
+INFO 2024-01-14 15:17:04,678 views 672 15060 Page accessed
+INFO 2024-01-14 15:17:04,879 basehttp 672 15060 "GET /main/ HTTP/1.1" 200 10201
+INFO 2024-01-14 15:17:04,912 views 672 14332 Page accessed
+INFO 2024-01-14 15:17:04,927 basehttp 672 14332 "GET /main/ HTTP/1.1" 200 10204
+INFO 2024-01-14 15:17:25,412 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=HistoryPanel HTTP/1.1" 200 10700
+INFO 2024-01-14 15:17:25,419 basehttp 672 15060 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2024-01-14 15:17:46,594 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=VersionsPanel HTTP/1.1" 200 758
+INFO 2024-01-14 15:18:16,844 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=SettingsPanel HTTP/1.1" 200 26809
+INFO 2024-01-14 15:19:02,533 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=HeadersPanel HTTP/1.1" 200 5271
+INFO 2024-01-14 15:19:36,395 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=RequestPanel HTTP/1.1" 200 1542
+INFO 2024-01-14 15:20:08,571 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=SQLPanel HTTP/1.1" 200 19748
+INFO 2024-01-14 15:21:22,854 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=TemplatesPanel HTTP/1.1" 200 6899
+INFO 2024-01-14 15:21:24,121 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=StaticFilesPanel HTTP/1.1" 200 51619
+INFO 2024-01-14 15:22:07,985 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2024-01-14 15:22:17,212 basehttp 672 15060 "GET /__debug__/render_panel/?store_id=3615b087b5d84ad6ac14847436f9717d&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-01-14 15:22:54,683 basehttp 672 15060 "GET /main/game1 HTTP/1.1" 301 0
+INFO 2024-01-14 15:22:54,697 views 672 21112 Page accessed
+INFO 2024-01-14 15:22:54,724 basehttp 672 21112 "GET /main/game1/ HTTP/1.1" 200 10011
+INFO 2024-01-14 15:22:54,749 basehttp 672 21112 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-01-14 15:22:54,752 basehttp 672 1444 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-01-14 15:22:54,760 basehttp 672 21112 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-01-14 15:22:54,789 basehttp 672 21112 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-01-14 15:22:54,852 views 672 7884 Page accessed
+INFO 2024-01-14 15:22:54,866 basehttp 672 7884 "GET /main/game1/ HTTP/1.1" 200 10011
+INFO 2024-01-14 15:23:00,602 basehttp 672 21112 "GET /__debug__/render_panel/?store_id=6226023565374557bf8d8f9afcdb9899&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-01-14 15:23:24,135 basehttp 672 21112 "GET /__debug__/render_panel/?store_id=6226023565374557bf8d8f9afcdb9899&panel_id=TemplatesPanel HTTP/1.1" 200 6895
+INFO 2024-01-14 15:23:30,033 basehttp 672 21112 "GET /__debug__/render_panel/?store_id=6226023565374557bf8d8f9afcdb9899&panel_id=HistoryPanel HTTP/1.1" 200 15634
+INFO 2024-01-14 15:23:30,040 basehttp 672 21112 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
